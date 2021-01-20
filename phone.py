@@ -35,7 +35,7 @@ def sendSMS():
 	}
 
 	state_machine.SendSMS(message)
-	messagebox.showinfo(title='Message Sent', message="SENT!", **options)
+	messagebox.showinfo(title='Message Sent', message="SENT!")
 
 
 
